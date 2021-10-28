@@ -8,5 +8,6 @@ public class Multiple {
         // Вношу изменения
         System.out.println("1*10=10");
         // Дополнительные изменения
+        System.out.println("2*2=4");
     }
 }
