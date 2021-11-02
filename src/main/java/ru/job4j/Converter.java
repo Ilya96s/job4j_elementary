@@ -12,18 +12,25 @@ public class Converter {
         return rsl;
     }
 
-    public static float rubToChf(float value) {
-        float rsl = value / 77.63F;
+    public static float dollarToEuro(float value) {
+        float rsl = value / 60;
+        return rsl;
+    }
+
+    public static float euroToDollar(float value) {
+        float rsl = value / 70;
         return rsl;
     }
 
         public static void main(String[] args) {
             float euro = Converter.rubleToEuro(140);
-            float dollar = Converter.rubleToDollar(140);
-            float chf = Converter.rubToChf(20);
             System.out.println("140 rubles are " + euro + " euro");
+            float dollar = Converter.rubleToDollar(140);
             System.out.println("140 rubles are " + dollar + " dollar");
-            System.out.println("20 rubles are " + chf + " chf");
+            euro = Converter.dollarToEuro(70);
+            System.out.println("1 dollar are " + euro + " euro");
+            dollar = Converter.euroToDollar(60);
+            System.out.println("1 euro are " + dollar + " dollar");
         }
     }
 
