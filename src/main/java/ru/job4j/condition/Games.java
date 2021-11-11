@@ -1,7 +1,7 @@
 package ru.job4j.condition;
 
 public class Games {
-    public static void permossion(boolean allowByParent, boolean hasMoney) {
+    public static void permission(boolean allowByParent, boolean hasMoney) {
         if (allowByParent && hasMoney) {
             System.out.println("I can go to the cinema");
         } else {
@@ -10,9 +10,9 @@ public class Games {
     }
 
     public static void main(String[] args) {
-        Games.permossion(true, true);
-        Games.permossion(true, false);
-        Games.permossion(false, true);
-        Games.permossion(false, false);
+        Games.permission(true, true);
+        Games.permission(true, false);
+        Games.permission(false, true);
+        Games.permission(false, false);
     }
 }
