@@ -29,10 +29,10 @@ public class ChessBoard {
     }
 
     public static void main(String[] args) {
-        System.out.println(isPositive(1, 0, 3, 2));
-        System.out.println(isLessThan7(1, 0, 3, 2));
-        System.out.println(isPositiveAndLessThan7(1, 0, 3, 2));
-        System.out.println(isDiagonal(1, 0, 3, 2));
-        System.out.println(way(1, 0, 3, 2));
+        System.out.println("Координаты положительные :" + isPositive(1, 0, 3, 2));
+        System.out.println("Координаты не больше 7: " + isLessThan7(1, 0, 3, 2));
+        System.out.println("Координаты положительные и не больше 7: " + isPositiveAndLessThan7(1, 0, 3, 2));
+        System.out.println("Фигура ходит по диагонали : " + isDiagonal(1, 0, 3, 2));
+        System.out.println("Количество ходов: " + way(1, 0, 3, 2));
     }
 }
