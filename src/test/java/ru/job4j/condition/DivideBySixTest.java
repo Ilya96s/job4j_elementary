@@ -37,3 +37,4 @@ public class DivideBySixTest {
         Assert.assertEquals(expected, result);
     }
 }
+
