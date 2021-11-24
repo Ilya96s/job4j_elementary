@@ -10,4 +10,3 @@ public class Turn {
       return array;
     }
 }
-
