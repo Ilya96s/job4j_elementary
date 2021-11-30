@@ -32,7 +32,7 @@ public class MatrixCheckTest {
     @Test
     public void whenNotMonoVertical() {
         char[][] input = {
-                {'X', ' ', ' '},
+                {' ', 'X', ' '},
                 {' ', ' ', 'X'},
                 {' ', ' ', 'X'},
         };
