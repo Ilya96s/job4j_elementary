@@ -6,7 +6,7 @@ package ru.job4j.exercises.arraysexercise;
 public class Fibonacci {
     public static boolean checkArray(int[] array) {
         boolean rsl = true;
-        for (int i = 0; i < array.length - 3; i++) {
+        for (int i = 0; i < array.length - 2; i++) {
             int prev = array[i];
             int next = array[i + 1];
             int sum = array[i + 2];
