@@ -18,6 +18,7 @@ import java.util.Optional;
  * 2. Метод ifPresent() вызывает метод max(). Если значение существует, то выводит максимальное значение например, "Max: 3". Для вывода нужно использовать System.out.println()
  *
  * @author Ilya Kaltygin
+ *
  */
 public class OptionalIfPresent {
 

@@ -50,5 +50,4 @@ public class OptionalIfPresentTest {
         );
         System.setOut(before);
     }
-
 }
