@@ -1,6 +1,7 @@
 package ru.job4j.exercises.sort;
 
-import static org.junit.Assert.*;
+import org.junit.Assert;
+import org.junit.Test;
 
 public class ArraysSortTest {
 
